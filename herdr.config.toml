@@ -7,8 +7,8 @@ reload_config = "prefix+r"
 resize_mode = "prefix+shift+r"
 
 # Move between spaces without entering prefix mode.
-previous_workspace = "ctrl+shift+h"
-next_workspace = "ctrl+shift+l"
+previous_workspace = "ctrl+shift+k"
+next_workspace = "ctrl+shift+j"
 switch_workspace = "ctrl+1..9"
 
 # A Herdr tab is the closest equivalent to a tmux window.
