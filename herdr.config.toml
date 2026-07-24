@@ -1,0 +1,36 @@
+[keys]
+prefix = "ctrl+e"
+
+# Keep the familiar tmux session controls.
+detach = "prefix+d"
+reload_config = "prefix+r"
+resize_mode = "prefix+shift+r"
+
+# Move between spaces without entering prefix mode.
+previous_workspace = "ctrl+shift+h"
+next_workspace = "ctrl+shift+l"
+switch_workspace = "ctrl+1..9"
+
+# A Herdr tab is the closest equivalent to a tmux window.
+new_tab = ["prefix+c", "prefix+v"]
+rename_tab = "prefix+comma"
+close_tab = "prefix+ampersand"
+previous_tab = "prefix+p"
+next_tab = "prefix+n"
+switch_tab = "prefix+1..9"
+
+# Match the current tmux pane controls.
+focus_pane_left = "prefix+h"
+focus_pane_down = "prefix+j"
+focus_pane_up = "prefix+k"
+focus_pane_right = "prefix+l"
+split_vertical = ["prefix+percent", "prefix+backslash"]
+split_horizontal = ["prefix+double_quote", "prefix+minus"]
+rename_pane = "prefix+t"
+close_pane = "prefix+x"
+zoom = "prefix+z"
+copy_mode = "prefix+["
+
+[ui]
+# Create tabs immediately, like tmux new-window.
+prompt_new_tab_name = false
