@@ -1,3 +1,4 @@
+onboarding = false
 [keys]
 prefix = "ctrl+e"
 
@@ -34,3 +35,8 @@ copy_mode = "prefix+["
 [ui]
 # Create tabs immediately, like tmux new-window.
 prompt_new_tab_name = false
+
+agent_panel_sort = "spaces"
+[ui.toast]
+# Ask Ghostty to notify when a background agent finishes or needs input.
+delivery = "terminal"
